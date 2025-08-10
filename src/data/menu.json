@@ -1,0 +1,138 @@
+{
+  "menu": [
+    {
+      "id": 1,
+      "name": "Bruschetta Classica",
+      "category": "Antipasti",
+      "price": 12.0,
+      "description": "Grilled bread topped with fresh tomatoes, basil, garlic, and extra virgin olive oil.",
+      "ingredients": ["Tomatoes", "Basil", "Garlic", "Olive oil", "Bread"],
+      "allergens": ["Gluten"],
+      "nutrition": {
+        "calories": 250,
+        "protein": 6,
+        "carbs": 32,
+        "fat": 10
+      }
+    },
+    {
+      "id": 2,
+      "name": "Antipasto Misto",
+      "category": "Antipasti",
+      "price": 18.0,
+      "description": "A generous platter featuring the finest Italian cured meats including prosciutto di Parma, salami, and mortadella. Accompanied by aged cheeses, marinated vegetables, Kalamata olives, and served with fresh focaccia bread.",
+      "extras": [
+        { "name": "Extra prosciutto", "price": 6.0 },
+        { "name": "Truffle cheese", "price": 8.0 },
+        { "name": "Roasted peppers", "price": 3.0 }
+      ],
+      "ingredients": [
+        "Prosciutto di Parma",
+        "Salami",
+        "Mortadella",
+        "Parmigiano Reggiano",
+        "Gorgonzola",
+        "Kalamata olives",
+        "Marinated vegetables",
+        "Focaccia bread"
+      ],
+      "allergens": ["Gluten", "Dairy"],
+      "nutrition": {
+        "calories": 420,
+        "protein": 24,
+        "carbs": 12,
+        "fat": 32
+      }
+    },
+    {
+      "id": 3,
+      "name": "Spaghetti Carbonara",
+      "category": "Pasta",
+      "price": 19.0,
+      "description": "Classic Roman pasta with eggs, pancetta, pecorino cheese, and black pepper.",
+      "ingredients": [
+        "Spaghetti",
+        "Eggs",
+        "Pancetta",
+        "Pecorino cheese",
+        "Black pepper"
+      ],
+      "allergens": ["Gluten", "Eggs", "Dairy"]
+    },
+    {
+      "id": 4,
+      "name": "Fettuccine Alfredo",
+      "category": "Pasta",
+      "price": 17.0,
+      "description": "Fresh fettuccine pasta in rich cream sauce with parmesan and butter.",
+      "ingredients": ["Fettuccine", "Cream", "Parmesan", "Butter"],
+      "allergens": ["Gluten", "Dairy"]
+    },
+    {
+      "id": 5,
+      "name": "Margherita Pizza",
+      "category": "Pizza",
+      "price": 16.0,
+      "description": "San Marzano tomatoes, fresh mozzarella, basil, and extra virgin olive oil.",
+      "ingredients": [
+        "Pizza dough",
+        "Tomatoes",
+        "Mozzarella",
+        "Basil",
+        "Olive oil"
+      ],
+      "allergens": ["Gluten", "Dairy"]
+    },
+    {
+      "id": 6,
+      "name": "Pizza Diavola",
+      "category": "Pizza",
+      "price": 20.0,
+      "description": "Spicy salami, mozzarella, tomato sauce, and chili flakes.",
+      "ingredients": [
+        "Pizza dough",
+        "Tomato sauce",
+        "Mozzarella",
+        "Salami",
+        "Chili flakes"
+      ],
+      "allergens": ["Gluten", "Dairy"]
+    },
+    {
+      "id": 7,
+      "name": "Osso Buco",
+      "category": "Secondi Piatti",
+      "price": 32.0,
+      "description": "Braised veal shanks with saffron risotto and gremolata.",
+      "ingredients": ["Veal shanks", "Saffron risotto", "Gremolata"],
+      "allergens": ["Gluten", "Dairy"]
+    },
+    {
+      "id": 8,
+      "name": "Branzino al Sale",
+      "category": "Secondi Piatti",
+      "price": 28.0,
+      "description": "Mediterranean sea bass baked in sea salt with herbs and lemon.",
+      "ingredients": ["Sea bass", "Sea salt", "Herbs", "Lemon"],
+      "allergens": []
+    },
+    {
+      "id": 9,
+      "name": "Tiramisu",
+      "category": "Dolci",
+      "price": 9.0,
+      "description": "Classic Italian dessert with mascarpone, coffee, and cocoa.",
+      "ingredients": ["Mascarpone", "Coffee", "Cocoa", "Ladyfingers"],
+      "allergens": ["Gluten", "Dairy"]
+    },
+    {
+      "id": 10,
+      "name": "Panna Cotta",
+      "category": "Dolci",
+      "price": 8.0,
+      "description": "Silky vanilla custard with berry coulis and fresh berries.",
+      "ingredients": ["Cream", "Vanilla", "Sugar", "Berries"],
+      "allergens": ["Dairy"]
+    }
+  ]
+}
