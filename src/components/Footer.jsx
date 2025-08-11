@@ -58,7 +58,9 @@ export default function Footer() {
           </div>
         </div>
         <div className="mt-8 border-t border-amber-800 pt-8 text-center text-amber-200">
-          <p>&copy; Bella Bella Italian Restaurant. All rights reserved.</p>
+          <p>
+            &copy; 2025 Bella Bella Italian Restaurant. All rights reserved.
+          </p>
         </div>
       </div>
     </footer>
