@@ -30,7 +30,7 @@ export default function Footer() {
 
               <div className="flex items-center gap-2">
                 <div className="flex size-5 items-center justify-center">
-                  <i class="fa-regular fa-envelope"></i>
+                  <i className="fa-regular fa-envelope"></i>
                 </div>
                 <span>Info@bellabella.com</span>
               </div>
