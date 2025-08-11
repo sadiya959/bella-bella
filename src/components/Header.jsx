@@ -28,7 +28,7 @@ export default function Header() {
           >
             <div className="flex h-6 w-6 items-center justify-center">
               {!isMenuOpen ? (
-                <i class="fa-solid fa-bars text-xl"></i>
+                <i className="fa-solid fa-bars text-xl"></i>
               ) : (
                 <i className="fa-solid fa-close text-xl"></i>
               )}
