@@ -9,7 +9,7 @@ const Hero = () => {
     >
       <div className="absolute inset-0 bg-black/50 flex items-center justify-center">
         <div className="text-center text-white px-4">
-          <h1 className="text-4xl md:text-7xl font-bold mb-4">Bella Vista</h1>
+          <h1 className="text-4xl md:text-7xl font-bold mb-4">Bella Bella</h1>
           <p className="text-lg md:text-2xl max-w-2xl mx-auto text-gray-200 mb-6">
             Authentic Italian cuisine crafted with passion and served with love.
             Experience the true taste of Italy.
