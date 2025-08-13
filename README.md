@@ -7,15 +7,17 @@ An elegant and responsive web application for **Bella Bella**, an Italian restau
 ## Table of Contents
 
 1. [Introduction](#introduction)
-2. [Features](#features)
-3. [Project Structure](#project-structure)
-4. [Installation](#installation)
-5. [Usage](#usage)
-6. [Pages Overview](#pages-overview)
-7. [Technologies Used](#technologies-used)
-8. [Customization](#customization)
-9. [Contact Info](#contact-info)
-10. [License](#license)
+2. [screenshots](#screenshots)
+3. [Features](#features)
+4. [Project Structure](#project-structure)
+5. [Installation](#installation)
+6. [Usage](#usage)
+7. [Pages Overview](#pages-overview)
+8. [Technologies Used](#technologies-used)
+9. [Customization](#customization)
+10. [Contact Info](#contact-info)
+11. [Contributors](#contributors)
+12. [License](#license)
 
 ---
 
@@ -28,6 +30,16 @@ Bella Bella is an online platform for showcasing the restaurant’s menu, offeri
 - Reserve tables directly online with custom preferences and dietary requests.
 
 ---
+
+## Screenshots
+
+![Bella Bell Home Page](/public/screenshots/screenshot-home.png)
+
+![Bella Bell Menu Page](/public/screenshots/screenshot-menu.png)
+
+![Bella Bell Menu Details Page](/public/screenshots/screenshot-menu-details.png)
+
+![Bella Bell Booking Page](/public/screenshots/screenshot-booking.png)
 
 ## Features
 
@@ -48,18 +60,24 @@ Bella Bella is an online platform for showcasing the restaurant’s menu, offeri
 ```
 📁 bellabella/
 ├── 📁 public/
-│   ├── favicon.ico
-│   ├── screenshot-home.png
-│   └── screenshot-menu.png
-│   └── screenshot-menu-details.png
-│   └── screenshot-booking.png
+│   ├── 📁 data/
+│   ├── 📁 images/
+│   ├── 📁 screenshots/
 ├── 📁 src/
 │   ├── 📁 assets/
 │   ├── 📁 components/
+│   │   └── About.jsx
+│   │   └── Filter.jsx
 │   │   └── Footer.jsx
+│   │   └── Form.jsx
 │   │   └── Header.jsx
-│   ├── 📁 data/
-│   │   └── menu.json
+│   │   └── Hero.jsx
+│   │   └── MenuItem.jsx
+│   │   └── MenusList.jsx
+│   │   └── NavLink.jsx
+│   │   └── PageHeader.jsx
+│   │   └── Specials.jsx
+│   │   └── SpecialsCard.jsx
 │   ├── 📁 pages/
 │   │   └── Booking.jsx
 │   │   └── Home.jsx
@@ -125,8 +143,8 @@ Bella Bella is an online platform for showcasing the restaurant’s menu, offeri
 
 - **Frontend**: HTML5, CSS3, JavaScript (likely React or Vue if dynamic behavior is included)
 - **Styling**: Tailwind CSS / Custom SCSS (based on the design)
-- **Icons & UI Elements**: Material Icons or custom SVGs
-- **Hosting**: Netlify / Vercel / Static hosting (to be specified)
+- **Icons & UI Elements**: FontAwesome and React Icons
+- **Hosting**: Vercel
 
 ---
 
@@ -147,6 +165,11 @@ Bella Bella is an online platform for showcasing the restaurant’s menu, offeri
 ✉️ info@bellavista.com
 
 ---
+
+## Contributors
+
+- [**Khadar Siciid**](https://github.com/khadaroo)
+- [**Sadiya Mahamoud**](https://github.com/sadiya959)
 
 ## License
 
