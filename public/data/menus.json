@@ -1,0 +1,302 @@
+{
+  "menus": [
+    {
+      "id": 1,
+      "name": "Bruschetta Classica",
+      "category": "Antipasti",
+      "price": 12.0,
+      "summary": "Grilled bread topped with fresh tomatoes, basil, garlic, and extra virgin olive oil.",
+      "description": "Our signature bruschetta features thick slices of artisanal bread, perfectly grilled and rubbed with fresh garlic. Topped with ripe San Marzano tomatoes, fresh basil leaves, and finished with our house-made extra virgin olive oil. A perfect start to any Italian meal.",
+      "extras": [
+        { "name": "Extra basil", "price": 2.0 },
+        { "name": "Buffalo mozzarella", "price": 4.0 },
+        { "name": "Prosciutto", "price": 6.0 }
+      ],
+      "ingredients": [
+        "Artisanal bread",
+        "San Marzano tomatoes",
+        "Fresh basil",
+        "Garlic",
+        "Extra virgin olive oil",
+        "Sea salt",
+        "Black pepper"
+      ],
+      "allergens": ["Gluten"],
+      "nutrition": {
+        "calories": 180,
+        "protein": 6,
+        "carbs": 18,
+        "fat": 5
+      },
+      "image": "images/bruschetta-classica.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Antipasto Misto",
+      "category": "Antipasti",
+      "price": 18.0,
+      "summary": "Selection of cured meats, cheeses, olives, and marinated vegetables",
+      "description": "A generous platter featuring the finest Italian cured meats including prosciutto di Parma, salami, and mortadella. Accompanied by aged cheeses, marinated vegetables, Kalamata olives, and served with fresh focaccia bread.",
+      "extras": [
+        { "name": "Extra prosciutto", "price": 6.0 },
+        { "name": "Truffle cheese", "price": 8.0 },
+        { "name": "Roasted peppers", "price": 3.0 }
+      ],
+      "ingredients": [
+        "Prosciutto di Parma",
+        "Salami",
+        "Mortadella",
+        "Parmigiano Reggiano",
+        "Gorgonzola",
+        "Kalamata olives",
+        "Marinated vegetables",
+        "Focaccia bread"
+      ],
+      "allergens": ["Gluten", "Dairy"],
+      "nutrition": {
+        "calories": 420,
+        "protein": 24,
+        "carbs": 12,
+        "fat": 32
+      },
+      "image": "images/antipasto-misto.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Spaghetti Carbonara",
+      "category": "Pasta",
+      "price": 19.0,
+      "summary": "Classic Roman pasta with eggs, pancetta, pecorino cheese, and black pepper.",
+      "description": "Authentic Roman carbonara made with al dente spaghetti, crispy pancetta, farm-fresh eggs, aged Pecorino Romano, and freshly cracked black pepper. Prepared using traditional techniques for the perfect creamy texture without cream.",
+      "extras": [
+        { "name": "Extra pancetta", "price": 4.0 },
+        { "name": "Truffle oil", "price": 6.0 },
+        { "name": "Extra cheese", "price": 3.0 }
+      ],
+      "ingredients": [
+        "Spaghetti",
+        "Pancetta",
+        "Eggs",
+        "Pecorino Romano",
+        "Black pepper",
+        "Sea salt"
+      ],
+      "allergens": ["Gluten", "Eggs", "Dairy"],
+      "nutrition": {
+        "calories": 520,
+        "protein": 22,
+        "carbs": 58,
+        "fat": 24
+      },
+      "image": "images/spaghetti-carbonara.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Fettuccine Alfredo",
+      "category": "Pasta",
+      "price": 17.0,
+      "summary": "Fresh fettuccine pasta in rich cream sauce with parmesan and butter.",
+      "description": "House-made fettuccine pasta tossed in our signature Alfredo sauce, made with heavy cream, butter, and freshly grated Parmigiano-Reggiano. A rich and indulgent classic that melts in your mouth.",
+      "extras": [
+        { "name": "Grilled chicken", "price": 8.0 },
+        { "name": "Shrimp", "price": 10.0 },
+        { "name": "Broccoli", "price": 4.0 }
+      ],
+      "ingredients": [
+        "Fresh fettuccine",
+        "Heavy cream",
+        "Butter",
+        "Parmigiano Reggiano",
+        "Garlic",
+        "White pepper"
+      ],
+      "allergens": ["Gluten", "Dairy", "Eggs"],
+      "nutrition": {
+        "calories": 650,
+        "protein": 18,
+        "carbs": 62,
+        "fat": 38
+      },
+      "image": "images/fettuccine-alfredo.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Margherita Pizza",
+      "category": "Pizza",
+      "price": 16.0,
+      "summary": "San Marzano tomatoes, fresh mozzarella, basil, and extra virgin olive oil.",
+      "description": "The queen of pizzas featuring our hand-stretched dough topped with San Marzano tomato sauce, creamy mozzarella di bufala, fresh basil leaves, and finished with extra virgin olive oil. Baked in our wood-fired oven for the perfect crispy crust.",
+      "extras": [
+        { "name": "Extra mozzarella", "price": 3.0 },
+        { "name": "Prosciutto", "price": 6.0 },
+        { "name": "Arugula", "price": 2.0 }
+      ],
+      "ingredients": [
+        "Pizza dough",
+        "San Marzano tomatoes",
+        "Mozzarella di bufala",
+        "Fresh basil",
+        "Extra virgin olive oil",
+        "Sea salt"
+      ],
+      "allergens": ["Gluten", "Dairy"],
+      "nutrition": {
+        "calories": 480,
+        "protein": 20,
+        "carbs": 58,
+        "fat": 18
+      },
+      "image": "images/margherita-pizza.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Pizza Diavola",
+      "category": "Pizza",
+      "price": 20.0,
+      "summary": "Spicy salami, mozzarella, tomato sauce, and chili flakes.",
+      "description": "For those who like it hot! Our spicy pizza features a base of San Marzano tomato sauce, mozzarella, spicy salami, and finished with crushed chili flakes. The perfect balance of heat and flavor.",
+      "extras": [
+        { "name": "Extra salami", "price": 5.0 },
+        { "name": "Hat honey", "price": 3.0 },
+        { "name": "Jalapenos", "price": 2.0 }
+      ],
+      "ingredients": [
+        "Pizza dough",
+        "San Marzano tomatoes",
+        "Mozzarella",
+        "Spicy salami",
+        "Chili flakes",
+        "Oregano"
+      ],
+      "allergens": ["Gluten", "Dairy"],
+      "nutrition": {
+        "calories": 580,
+        "protein": 26,
+        "carbs": 56,
+        "fat": 28
+      },
+      "image": "images/pizza-diavola.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Osso Buco",
+      "category": "Secondi Piatti",
+      "price": 32.0,
+      "summary": "Braised veal shanks with saffron risotto and gremolata.",
+      "description": "Tender veal shanks slowly braised in white wine and vegetables until fall-off-the-bone tender. Served with creamy saffron risotto and topped with fresh gremolata. A true Milanese classic that represents the pinnacle of Italian comfort food.",
+      "extras": [
+        { "name": "Extra gremolata", "price": 3.0 },
+        { "name": "Truffle oil", "price": 8.0 },
+        { "name": "Side of vegetables", "price": 6.0 }
+      ],
+      "ingredients": [
+        "Veal shanks",
+        "Arborio rice",
+        "Saffron",
+        "White wine",
+        "Onions",
+        "Celery",
+        "Carrots",
+        "Gremolata",
+        "Bone marrow"
+      ],
+      "allergens": ["Dairy"],
+      "nutrition": {
+        "calories": 680,
+        "protein": 45,
+        "carbs": 32,
+        "fat": 38
+      },
+      "image": "images/osso-buco.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Branzino al Sale",
+      "category": "Secondi Piatti",
+      "price": 28.0,
+      "summary": "Mediterranean sea bass baked in sea salt with herbs and lemon.",
+      "description": "Fresh Mediterranean sea bass baked whole in a crust of coarse sea salt mixed with fresh herbs. This ancient technique seals in moisture and flavor while creating incredibly tender, flaky fish. Served with roasted vegetables and lemon.",
+      "extras": [
+        { "name": "Extra lemon", "price": 1.0 },
+        { "name": "Salmoriglio sauce", "price": 4.0 },
+        { "name": "Grilled vegetables", "price": 6.0 }
+      ],
+      "ingredients": [
+        "whole sea bass",
+        "Coarse sea salt",
+        "Fresh herbs",
+        "Lemon",
+        "Olive oil",
+        "Roasted vegetables"
+      ],
+      "allergens": [],
+      "nutrition": {
+        "calories": 420,
+        "protein": 38,
+        "carbs": 8,
+        "fat": 26
+      },
+      "image": "images/branzino-alsale.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Tiramisu",
+      "category": "Dolci",
+      "price": 9.0,
+      "summary": "Classic Italian dessert with mascarpone, coffee, and cocoa.",
+      "description": "The ultimate Italian dessert featuring layers of coffee-soaked ladyfingers and rich mascarpone cream, delicately flavored with Marsala wine and dusted with premium cocoa powder. Made fresh daily in our kitchen",
+      "extras": [
+        { "name": "Extra cocoa", "price": 1.0 },
+        { "name": "Amaretto", "price": 3.0 },
+        { "name": "Fresh berries", "price": 4.0 }
+      ],
+      "ingredients": [
+        "Mascarpone",
+        "Ladyfingers",
+        "Espresso",
+        "Marsala wine",
+        "Eggs",
+        "Sugar",
+        "Cocoa powder"
+      ],
+      "allergens": ["Dairy", "Eggs", "Gluten"],
+      "nutrition": {
+        "calories": 340,
+        "protein": 8,
+        "carbs": 28,
+        "fat": 22
+      },
+      "image": "images/tiramisu.jpg"
+    },
+    {
+      "id": 10,
+      "name": "Panna Cotta",
+      "category": "Dolci",
+      "price": 8.0,
+      "summary": "Silky vanilla custard with berry coulis and fresh berries.",
+      "description": "Silky smooth vanilla-infused custard made with fresh cream and Madagascar vanilla beans, Served with a vibrant berry coulis and topped with seasonal fesh berries. Light, elegent, and the perfect ending to any meal.",
+      "extras": [
+        { "name": "Chocolate sauce", "price": 2.0 },
+        { "name": "Pistachio crumble", "price": 3.0 },
+        { "name": "Extra berries", "price": 4.0 }
+      ],
+      "ingredients": [
+        "Heavy cream",
+        "Madagascar vanilla beans",
+        "Sugar",
+        "Berries",
+        "Gelatin",
+        "mixed berries",
+        "Berry coulis"
+      ],
+      "allergens": ["Dairy"],
+      "nutrition": {
+        "calories": 280,
+        "protein": 4,
+        "carbs": 24,
+        "fat": 18
+      },
+      "image": "images/panna-cotta.jpg"
+    }
+  ]
+}
