@@ -143,9 +143,9 @@ Bella Bella is an online platform for showcasing the restaurant’s menu, offeri
 
 ## Technologies Used
 
-- **Frontend**: HTML5, CSS3, JavaScript (likely React or Vue if dynamic behavior is included)
-- **Styling**: Tailwind CSS / Custom SCSS (based on the design)
-- **Icons & UI Elements**: FontAwesome and React Icons
+- **Frontend**: React, Vite  
+- **Styling**: Tailwind CSS
+- **Icons & UI Elements**: React Icons, Font Awesome 
 - **Hosting**: Vercel
 
 ---
